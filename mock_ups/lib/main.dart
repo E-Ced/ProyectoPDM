@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Material App',
       theme: ThemeData(colorSchemeSeed: Colors.black, useMaterial3: true),
-      home: viewProfile(),
+      home: homePage(),
     );
   }
 }
